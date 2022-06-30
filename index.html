@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/img/bella_olonje_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Delivery Food Pages</title>
+    <!-- use CDN tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style> -->
+</head>
+
+<body class="font-roboto">
+    <!-- /container -->
+    <div class="w-full bg-white max-w-[1440px] h-[4300px] m-auto items-center">
+        <!-- header - section -->
+        <div class="w-full h-full max-h-[830px] items-start">
+            <!-- /header - navbar -->
+            <div class="flex h-[155px] bg-white relative">
+                <!-- logo -->
+                <div class="w-1/2 left-[90px] top-[26.12px] absolute">
+                    <!-- <a href="./" class="w-[100px]"> -->
+                        <img src="./public/img/bella_olonje_logo.png" alt="website logo">
+                    <!-- </a> -->
+                </div>
+                <!-- link - menu -->
+                <div
+                    class="w-[580px] items-center h-12 font-montserrat font-semibold text-lg px-[10px] right-0 ml-[120px] top-[53px] left-1/2 absolute flex">
+                    <ul class="flex leading-10 flex-row">
+                        <li class="hover:scale-[1.1] pr-[114px] text-[#FA4A0C] hover:text-[#FA4A0C]"><a
+                                href="#">Home</a></li>
+                        <li class="hover:scale-[1.1] pr-[114px] hover:text-[#FA4A0C]"><a href="#">Product</a></li>
+                        <li class="hover:scale-[1.1] pr-[114px] hover:text-[#FA4A0C]"><a href="#">Faq</a></li>
+                        <li class="hover:scale-[1.1] hover:text-[#FA4A0C]"><a href="#">Contact</a></li>
+                    </ul>
+                    <!-- menu icon -->
+                    <div hidden>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /banner -->
+            <div class="bg-[url('./public/img/banner.png')] block items-center m-auto h-full max-h-[619px] w-full">
+                <!-- /text -->
+                <div
+                    class="w-[1005px] gap-2 m-auto items-center left-[217.5px] text-center pt-[73px] h-full max-h-[326px]">
+                    <!-- link -->
+                    <div class="text-white font-montserrat">
+                        <a href="" class="text-2xl hover:text-[#FA4A0C] font-bold">
+                            Food app
+                        </a>
+                    </div>
+                    <!-- title -->
+                    <div class="text-white">
+                        <h1 class="text-[58px] font-poppins font-bold">
+                            Why stay hungry when <br>
+                            you can order form Bella Onojie
+                        </h1>
+                    </div>
+                    <!-- text -->
+                    <div class="text-white mb-12">
+                        <p class="text-2xl font-montserrat font-medium">
+                            <marquee direction="" behavior="">
+                                Download the bella onoje’s food app now on
+                            </marquee>
+                        </p>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="m-auto text-white flex items-center w-auto justify-center mt-10 text-center">
+                    <div>
+                        <a href="">
+                            <button class="w-[236px] h-[68px] rounded-[30px] p-[16px,0] bg-[#FA4A0C] mr-[34px]">
+                                <h3 class="font-montserrat font-bold text-2xl">
+                                    Playstore
+                                </h3>
+                            </button>
+                        </a>
+                    </div>
+                    <div
+                        class="w-[236px] h-[68px] rounded-[30px] items-center justify-center text-center p-[16px,0] border border-solid">
+                        <a href="">
+                            <button class="w-full h-full rounded-[30px]">
+                                <h3 class="font-montserrat font-bold text-2xl">
+                                    App store
+                                </h3>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- body - section -->
+        <div class="w-full">
+            <!-- mobile app -->
+            <div class="w-[548px]  mt-[-25%] h-[640px] m-auto items-center text-center">
+                <img class="w-full h-auto" src="./public/img/mobile-app.png" alt="">
+            </div>
+            <!-- line -->
+            <div class="m-auto mt-[230.82px] text-center items-center bg-[#E4E4E4] h-[3px] w-[884px]">
+            </div>
+            <!-- title -->
+            <div class="m-auto mt-[72px] w-[425px] h-9 text-center  text-black">
+                <h2 class="font-poppins font-semibold text-[44px]">
+                    How the app works
+                </h2>
+            </div>
+            <!-- step 1 -->
+            <div class="w-full h-[600px] mt-[63px] flex">
+                <!-- img -->
+                <div class="w-1/2 h-[525px] text-center mt-[78px] items-center justify-center">
+                    <img class="m-auto  ml-[245px] h-full text-center justify-center" src="./public/img/interface_1.png"
+                        alt="">
+                </div>
+                <!-- text -->
+                <div class="w-1/2 h-[280px] left-0 mt-[233px] ">
+                    <!-- link -->
+                    <div class="h-9">
+                        <a href="" class="text-[#FA4A0C] ">
+                            <h3 class="font-montserrat font-bold text-2xl">
+                                Create an account
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- title -->
+                    <div class="w-[561px] h-[114px] text-black">
+                        <h2 class="w-full font-montserrat font-bold text-[40px] ">
+                            Create/login to an existing
+                            account to get started
+                        </h2>
+                    </div>
+                    <!-- text -->
+                    <div class="text-[#737373] w-[467px] h-[76px] pt-[27px]">
+                        <p class="font-montserrat font-medium text-2xl">
+                            An account is created with your email
+                            and a desired password
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- step 2 -->
+            <div class="w-full pl-[254px] h-[600px] flex">
+                <!-- text -->
+                <div class="w-[568px] h-[280px] left-0 mt-[233px] ">
+                    <!-- link -->
+                    <div class="h-9">
+                        <a href="" class="text-[#FA4A0C] ">
+                            <h3 class="font-montserrat font-bold text-2xl">
+                                Explore varieties
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- title -->
+                    <div class="w-[561px] h-[114px] text-black">
+                        <h2 class="w-full font-montserrat font-bold text-[40px] ">
+                            Shop for your favorites
+                            meal as e dey hot.
+                        </h2>
+                    </div>
+                    <!-- text -->
+                    <div class="text-[#737373] w-[467px] h-[76px] pt-[27px]">
+                        <p class="font-montserrat font-medium text-2xl">
+                            Shop for your favorite meals or drinks
+                            and enjoy while doing it.
+                        </p>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="w-[269px] h-[525px] ml-[205px] text-center mt-[78px]">
+                    <img class="m-auto h-full text-center justify-center" src="./public/img/interface_2.png" alt="">
+                </div>
+            </div>
+            <!-- step 3 -->
+            <div class="w-full h-[600px] flex">
+                <!-- img -->
+                <div class="w-1/2 h-[525px] text-center mt-[78px] items-center justify-center">
+                    <img class="m-auto  ml-[245px] h-full text-center justify-center" src="./public/img/interface_3.png"
+                        alt="">
+                </div>
+                <!-- text -->
+                <div class="w-1/2 h-[280px] left-0 mt-[233px] ">
+                    <!-- link -->
+                    <div class="h-9">
+                        <a href="" class="text-[#FA4A0C] ">
+                            <h3 class="font-montserrat font-bold text-2xl">
+                                Checkout
+                            </h3>
+                        </a>
+                    </div>
+                    <!-- title -->
+                    <div class="w-[561px] h-[114px] text-black">
+                        <h2 class="w-full font-montserrat font-bold text-[40px] ">
+                            When you done check out
+                            and get it delivered.
+                        </h2>
+                    </div>
+                    <!-- text -->
+                    <div class="text-[#737373] w-[467px] h-[76px] pt-[27px]">
+                        <p class="font-montserrat font-medium text-2xl">
+                            When you done check out and get it
+                            delivered with ease.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer - section -->
+        <div class="mt-[200px]">
+            <!-- footer - banner -->
+            <div
+                class="text-center text-white h-[510px] items-center bg-[url('./public/img/footer_banner.png')] w-full">
+                <!-- title -->
+                <div class="mt-36 font-montserrat w-[860px] h-auto pt-32 m-auto ">
+                    <div>
+                        <h1 class="font-bold text-[40px]">
+                            Download the app now.
+                        </h1>
+                    </div>
+                    <!-- text -->
+                    <div class="mt-5">
+                        <h4 class="font-medium text-2xl">
+                            Available on your favorite store. Start your premium experience now
+                        </h4>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="text-white w-full justify-center flex mt-16 m-auto font-montserrat">
+                    <div class="mr-6
+                    border
+                    hover:bg-[#FA4A0C]
+                    hover:border-0
+                    font-bold
+                    text-base
+                    rounded-3xl
+                    w-[142px]
+                    h-16">
+                        <a href="">
+                            <button class="h-full text-lg w-full">
+                                Playstore
+                            </button>
+                        </a>
+                    </div>
+                    <div
+                        class="font-bold border hover:bg-[#FA4A0C] hover:border-0 text-base rounded-3xl w-[142px] h-16">
+                        <a href="">
+                            <button class="h-full text-lg w-full">
+                                App store
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer - navbar -->
+            <div class="flex h-[133px] w-[1210px] m-auto mt-14">
+                <!-- logo -->
+                <div class="w-1/2 hover:scale-110 transition-all">
+                    <a href="./">
+                        <img src="./public/img/bella_olonje_logo.png" alt="website logo">
+                    </a>
+                </div>
+                <!-- button -->
+                <div class="w-1/2 ml-[70%] flex m-auto items-center justify-center text-center">
+                    <a href="./" class="pr-5">
+                        <img class="w-12 h-12 hover:rotate-[1turn] hover:scale-150 rounded-lg transition-all shadow-lg"
+                            src="https://free3dicon.com/wp-content/uploads/2021/03/facebook_perspective_matte_s-1-300x300.png.webp"
+                            alt="">
+                    </a>
+                    <a href="./" class="pr-5">
+                        <img class="w-12 h-12 hover:rotate-[-1turn] hover:scale-150 rounded-lg transition-all shadow-lg"
+                            src="https://free3dicon.com/wp-content/uploads/2021/03/instagram_perspective_matte_s-1-300x300.png.webp"
+                            alt="">
+                    </a>
+                    <a href="./">
+                        <img class="w-12 h-12 hover:rotate-[1turn] hover:scale-150 rounded-lg transition-all shadow-lg"
+                            src="https://free3dicon.com/wp-content/uploads/2021/03/twitter_perspective_matte_s-1-300x300.png.webp"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+
+            <!-- copy-right -->
+            <div class="font-roboto font-bold text-sm mt-12 w-full text-center items-center justify-center">
+                <p class="hover:text-[#FA4A0C]">
+                    &copy; Copywright 2022 .com - Mr. T / Lazi Design
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
